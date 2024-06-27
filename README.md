@@ -6,7 +6,7 @@
         ![img](https://raw.githubusercontent.com/ngductung/Corda-BlockChain/main/img/enviroment.png)
     -  Kiểm tra lại version
         ![img](https://raw.githubusercontent.com/ngductung/Corda-BlockChain/main/img/version.png)
-- Tải source code tại đây [đây](https://github.com/ngductung/Corda-BlockChain/tree/main/Booking).
+- Tải source code tại [đây](https://github.com/ngductung/Corda-BlockChain/tree/main/Booking).
 
 
 ## Build
