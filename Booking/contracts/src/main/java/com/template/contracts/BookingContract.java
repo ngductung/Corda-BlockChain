@@ -51,12 +51,6 @@ public class BookingContract implements Contract {
             throw new IllegalArgumentException("Room type must be one of the following: K, NK, DD, NDD.");
         }
 
-        // Gia hoa hong
-        double commissionPrice = bookingState.getOriginalRoomPrice() * 0.85;
-        if (bookingState.getOriginalRoomPrice() * 0.85 != commissionPrice) {
-            throw new IllegalArgumentException("Commission price must be 85% of the original room price.");
-        }
-
         // Chieu dai the tin dung la 16
         if (bookingState.getCreditCardNumber().length() != 16) {
             throw new IllegalArgumentException("Credit card number must be 16 digits long.");
